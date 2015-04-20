@@ -1,0 +1,9 @@
+E:\GitHub\SecurityMethod\SecurityMethod\bin\Debug\SecurityMethod.exe.config
+E:\GitHub\SecurityMethod\SecurityMethod\bin\Debug\SecurityMethod.exe
+E:\GitHub\SecurityMethod\SecurityMethod\bin\Debug\SecurityMethod.pdb
+E:\GitHub\SecurityMethod\SecurityMethod\obj\Debug\SecurityMethod.csprojResolveAssemblyReference.cache
+E:\GitHub\SecurityMethod\SecurityMethod\obj\Debug\SecurityMethod.Form1.resources
+E:\GitHub\SecurityMethod\SecurityMethod\obj\Debug\SecurityMethod.Properties.Resources.resources
+E:\GitHub\SecurityMethod\SecurityMethod\obj\Debug\SecurityMethod.csproj.GenerateResource.Cache
+E:\GitHub\SecurityMethod\SecurityMethod\obj\Debug\SecurityMethod.exe
+E:\GitHub\SecurityMethod\SecurityMethod\obj\Debug\SecurityMethod.pdb
