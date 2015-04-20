@@ -37,8 +37,8 @@
             this.txt_EncrypteOutput = new System.Windows.Forms.TextBox();
             this.txt_DecodeOutput = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioBtn_SHA512Hash = new System.Windows.Forms.RadioButton();
+            this.radioBtn_SHA512HashPlusSalt = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
@@ -122,32 +122,32 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Output";
             // 
-            // radioButton2
+            // radioBtn_SHA512Hash
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(185, 73);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(41, 16);
-            this.radioButton2.TabIndex = 9;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "MD5";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioBtn_SHA512Hash.AutoSize = true;
+            this.radioBtn_SHA512Hash.Location = new System.Drawing.Point(185, 73);
+            this.radioBtn_SHA512Hash.Name = "radioBtn_SHA512Hash";
+            this.radioBtn_SHA512Hash.Size = new System.Drawing.Size(83, 16);
+            this.radioBtn_SHA512Hash.TabIndex = 9;
+            this.radioBtn_SHA512Hash.TabStop = true;
+            this.radioBtn_SHA512Hash.Text = "SHA512Hash";
+            this.radioBtn_SHA512Hash.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // radioBtn_SHA512HashPlusSalt
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(261, 73);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(41, 16);
-            this.radioButton3.TabIndex = 10;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "MD5";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioBtn_SHA512HashPlusSalt.AutoSize = true;
+            this.radioBtn_SHA512HashPlusSalt.Location = new System.Drawing.Point(295, 73);
+            this.radioBtn_SHA512HashPlusSalt.Name = "radioBtn_SHA512HashPlusSalt";
+            this.radioBtn_SHA512HashPlusSalt.Size = new System.Drawing.Size(131, 16);
+            this.radioBtn_SHA512HashPlusSalt.TabIndex = 10;
+            this.radioBtn_SHA512HashPlusSalt.TabStop = true;
+            this.radioBtn_SHA512HashPlusSalt.Text = "SHA512HashPlusSalt";
+            this.radioBtn_SHA512HashPlusSalt.UseVisualStyleBackColor = true;
             // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(336, 73);
+            this.radioButton4.Location = new System.Drawing.Point(443, 73);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(41, 16);
             this.radioButton4.TabIndex = 11;
@@ -161,8 +161,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(657, 274);
             this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioBtn_SHA512HashPlusSalt);
+            this.Controls.Add(this.radioBtn_SHA512Hash);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_DecodeOutput);
             this.Controls.Add(this.txt_EncrypteOutput);
@@ -190,8 +190,8 @@
         private System.Windows.Forms.TextBox txt_EncrypteOutput;
         private System.Windows.Forms.TextBox txt_DecodeOutput;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioBtn_SHA512Hash;
+        private System.Windows.Forms.RadioButton radioBtn_SHA512HashPlusSalt;
         private System.Windows.Forms.RadioButton radioButton4;
     }
 }
